@@ -122,7 +122,7 @@ def main():
     st.sidebar.markdown('**Reginaldo Origuella Filho**')
     st.sidebar.markdown('Engenheiro de Produção e Pós Graduando em Engenharia e Ciência de Dados.')
     st.sidebar.markdown('[Linkedin](https://www.linkedin.com/in/reginaldo-origuella-filho/)')
-    st.sidebar.markdown('[Github](https://github.com/vvalcristina/streamlit-app)')
+    st.sidebar.markdown('[Github](https://github.com/reginaldooriguella/app-codenation/blob/master/app-semana3.py)')
 
 
 
