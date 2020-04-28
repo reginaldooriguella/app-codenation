@@ -50,10 +50,10 @@ def cria_correlationplot(df, colunas_numericas):
 
 
 def main():
-    st.image('logo.jpg', width=200)
+    st.image('logo.jpg', width=300)
     st.title('AceleraDev Data Science')
     st.subheader('Análise exploratória de dados')
-    st.image('https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif', width=200)
+    st.image('https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif', width=300)
     file  = st.file_uploader('Escolha a base de dados que deseja analisar (.csv)', type = 'csv')
     if file is not None:
         st.subheader('Estatística descritiva univariada')
@@ -115,8 +115,8 @@ def main():
             st.markdown('Gráfico de correlação das colunas númericas')
             st.write(cria_correlationplot(df, colunas_numericas))
 
-    st.markdown('**Reginaldo Origuella Filho**')
-
+    
+    st.sidebar.image('logo1.png', width=200)
     st.sidebar.subheader('Sobre mim:')
     st.sidebar.image('foto.jpg', width=150)
     st.sidebar.markdown('**Reginaldo Origuella Filho**')
